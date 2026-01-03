@@ -8,9 +8,12 @@
           {
             "type": "command",
             "command": "bash \"${CLAUDE_PLUGIN_ROOT}/hooks/scripts/latex-hooks.sh\"",
-            "timeout": 120
+            "timeout": 10
           }
-        ]
+        ],
+        "conditions": {
+          "fileExtensions": [".tex", ".latex", ".sty", ".cls", ".bib"]
+        }
       }
     ]
   }

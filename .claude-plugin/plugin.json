@@ -1,6 +1,6 @@
 {
   "name": "latex-lsp",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "LaTeX language server plugin for Claude Code with texlab integration and automated hooks for building and linting",
   "author": {
     "name": "zircote",
