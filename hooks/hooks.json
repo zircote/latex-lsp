@@ -7,7 +7,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "bash \"$CLAUDE_PLUGIN_ROOT/hooks/scripts/latex-hooks.sh\"",
+            "command": "bash \"${CLAUDE_PLUGIN_ROOT}/hooks/scripts/latex-hooks.sh\"",
             "timeout": 120
           }
         ]
